@@ -1,0 +1,13 @@
+{
+  "name": "products",
+  "version": "0.0.1",
+  "main": "products.js",
+  "private": true,
+  "dependencies": {},
+  "plugin": {
+    "consumes": [],
+    "provides": [
+      "products"
+    ]
+  }
+}

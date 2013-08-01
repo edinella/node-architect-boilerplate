@@ -1,0 +1,29 @@
+{
+  "name": "node-architect-boilerplate",
+  "description": "A boilerplate used to quickly get projects going.",
+  "author": "Ezequias Dinella <ezequias.net@gmail.com>",
+  "version": "0.0.1",
+  "private": false,
+  "repository" : {
+    "type":"git",
+    "url":"http://github.com/edinella/node-architect-boilerplate"
+  },
+  "dependencies": {
+    "architect": "0.1.10",
+    "architect-logger": "0.0.1",
+    "express": "3.3.4",
+    "jade": "0.34.1",
+    "path": "0.4.9",
+    "bower": "1.0.3",
+    "mocha": "1.9.0",
+    "chai": "1.5.0",
+    "chai-http": "0.3.0"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm":  "1.1.x"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
